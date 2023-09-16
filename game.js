@@ -34,6 +34,7 @@ function enterPressed(event){
 
 finishBtn.addEventListener('click', function (){
     document.getElementById('btn-container').style.display = "none";
+    document.getElementById('pscore').style.display = "none";
     document.getElementById('h1').innerHTML = "Bye!";
     document.getElementById('p1').style.display = "none";
     document.getElementById('p2').innerHTML = "Come back and play again soon";
