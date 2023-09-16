@@ -31,6 +31,8 @@ export function draw(gameBoard){
 
 export function expandSnake(amount){
     newSegments += amount;
+    document.getElementById('score').innerText = `Score: ${snakeBody.length}`;
+    document.getElementById('pscore').innerText = `Score: ${snakeBody.length}`;
 }
 
 export function onSnake(position, {ignoreHead = false} = {}){
