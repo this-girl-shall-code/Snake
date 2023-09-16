@@ -18,14 +18,14 @@ document.addEventListener('keypress', enterPressed);
 
 function play(){
     gameOverScreen.style.display = "none";
-    window.location = '/';
+    window.location.assign('https://this-girl-shall-code.github.io/Snake/');
 }
 
 function enterPressed(event){
     if(event.key === "Enter"){
         if (gameOverScreen.style.display === "flex" && !finished){
             gameOverScreen.style.display = "none";
-            window.location = '/' 
+            window.location.assign('https://this-girl-shall-code.github.io/Snake/');
         }
     }else{
         return 
