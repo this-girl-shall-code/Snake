@@ -16,6 +16,7 @@ body{
     color: white;
     font-size: 3vw;
     background-color: purple;
+    margin-bottom: 5px;
 }
 
 #game-board{
