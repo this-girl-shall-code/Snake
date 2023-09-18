@@ -18,8 +18,8 @@ window.addEventListener('keydown', e =>{
         case 'ArrowLeft':
         case 'a':
         case 'A':
-            inputDirection = { x: -1, y: 0 }
             if(lastInputDirection.x != 0 ) break /*if we are already moving left or right, ignore as we can't go right and we're already going left*/
+            inputDirection = { x: -1, y: 0 }
             break
         case 'ArrowRight':
         case 'd':
